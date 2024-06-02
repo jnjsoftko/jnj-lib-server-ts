@@ -1,0 +1,1 @@
+yarn build && node dist/proxy.js

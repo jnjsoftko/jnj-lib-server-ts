@@ -1,0 +1,25 @@
+{
+  "name": "jnj-server-ts",
+  "version": "0.0.1",
+  "description": "JnJ Server with Typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "Jnj Soft Ko <jnjsoft.ko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jnj-lib-base": "^0.0.31",
+    "jnj-lib-google": "^0.0.13"
+  },
+  "type": "module"
+}
